@@ -5,7 +5,7 @@ rabbitMQ作为消息中间件
 # 启动nameko
 nameko run main
 # 启动flask
-export PYTHONPATH='.'  
+export PYTHONPATH='./client'  
 export FLASK_APP=manger  
 flask run
 # 请求接口示例
